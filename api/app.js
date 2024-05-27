@@ -5,6 +5,7 @@ import authRoute from './routes/auth.route.js';
 
 const app = express();
 
+// Thêm dòng này vào để nhận được data từ postman
 app.use(express.json());
 
 app.use('/api/posts', postRoute);
